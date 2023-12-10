@@ -11,7 +11,7 @@ public class TestNGExample {
         System.setProperty("Webdriver.chrome.driver", "C:\\Users\\Ganesh\\OneDrive\\Desktop\\Installation\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();  //UpCasting
         driver.get("https://www.abhibus.com/");
-        driver.manage().window().maximize();
+        System.out.println("Hello");
         driver.close();
     }
 
