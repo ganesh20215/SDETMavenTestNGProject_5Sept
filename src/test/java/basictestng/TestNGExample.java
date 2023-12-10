@@ -21,6 +21,7 @@ public class TestNGExample {
         WebDriver driver = new ChromeDriver();  //UpCasting
         driver.get("https://edso.in/");
         driver.manage().window().maximize();
+        System.out.println("Good Morning...");
         driver.close();
     }
 
@@ -29,7 +30,6 @@ public class TestNGExample {
         System.setProperty("Webdriver.chrome.driver", "C:\\Users\\Ganesh\\OneDrive\\Desktop\\Installation\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();  //UpCasting
         driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
-        driver.manage().window().maximize();
         driver.close();
     }
 
