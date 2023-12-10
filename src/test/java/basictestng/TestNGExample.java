@@ -21,7 +21,7 @@ public class TestNGExample {
         WebDriver driver = new ChromeDriver();  //UpCasting
         driver.get("https://edso.in/");
         driver.manage().window().maximize();
-        System.out.println("Good Morning...");
+        System.out.println("Good Morning..");
         driver.close();
     }
 
