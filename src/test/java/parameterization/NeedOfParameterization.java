@@ -54,7 +54,6 @@ public class NeedOfParameterization {
         WebElement passwordElement = driver.findElement(By.id("password"));
         loginElement.sendKeys(inValidUserName);
         passwordElement.sendKeys(password);
-        Thread.sleep(4000);
         driver.close();
     }
 
